@@ -8,10 +8,6 @@ export const BookContainer = styled.article`
     display: flex;
     flex-direction: column;
 
-    span {
-        margin: 6px 0;
-    }
-
     img {
         border-radius: 4px;
     }
@@ -19,13 +15,15 @@ export const BookContainer = styled.article`
     p {
         font-size: 14px;
         color: #787885;
-        margin: 6px 0;
+        margin: 8px 0;
     }
 `;
 
 export const Title = styled.span`
     font-size: 16px;
     color: black;
+    margin-top: 9px;
+    margin-bottom: 6px;
 `;
 
 export const AuthorName = styled.span`
@@ -45,6 +43,7 @@ export const GenreInfo = styled.div`
         font-size: 14px;
         font-weight: 500;
         color: #2264D1;
+        margin: 6px 0;
     }
 `;
 

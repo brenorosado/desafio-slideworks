@@ -1,5 +1,6 @@
 import { GlobalStyle } from "../src/styles/global";
 import Menu from "../src/components/Menu";
+import Footer from "../src/components/Footer";
 
 const App = ({ Component, pageProps }) => {
   return (
@@ -7,6 +8,7 @@ const App = ({ Component, pageProps }) => {
       <Menu />
       <GlobalStyle />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 };
