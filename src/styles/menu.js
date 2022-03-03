@@ -1,7 +1,19 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import media from './media';
 
+const showMenuAnimation = keyframes`
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+`;
+
 export const NavBar = styled.nav`
+    position: fixed;
+    z-index: 999;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -9,6 +21,8 @@ export const NavBar = styled.nav`
     border-bottom: 1px solid #CCCCCC;
     height: 100px;
     font-family: 'Roboto', sans-serif;
+    position: fixed;
+    background: #F8F8F8;
 
     ul {
         display: none;
@@ -37,8 +51,9 @@ export const NavBar = styled.nav`
 
     input {
         display: none;
-        
+
         :checked + ul {
+            animation: ${showMenuAnimation} 0.3s ease-out;
             position: fixed;
             display: flex;
             flex-direction: column;
