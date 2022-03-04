@@ -41,7 +41,6 @@ export const GenreInfo = styled.div`
 
     span {
         font-size: 14px;
-        font-weight: 500;
         color: #2264D1;
         margin: 6px 0;
     }
@@ -50,7 +49,6 @@ export const GenreInfo = styled.div`
 export const PublishedInfo = styled.div`
     span {
         font-size: 14px;
-        font-weight: 500;
         color: #2264D1;
     }
 `;

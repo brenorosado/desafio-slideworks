@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BookContainer, Title, AuthorName, GenreInfo, PublishedInfo, GenreAndPublishedContainer } from '../styles/book';
+import { formatData } from "../helpers/DataHelper";
 
 const Book = ({ data }) => {
     const { title, image, description, author, genre, published } = data;
@@ -12,7 +13,7 @@ const Book = ({ data }) => {
             <p>{description}</p>
             <GenreAndPublishedContainer>
                 <GenreInfo><span>{genre}</span></GenreInfo>
-                <PublishedInfo><span>{published}</span></PublishedInfo>
+                <PublishedInfo><span>{formatData(published)}</span></PublishedInfo>
             </GenreAndPublishedContainer>
         </BookContainer>
     );
