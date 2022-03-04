@@ -19,5 +19,5 @@ https://desafio-slideworks.vercel.app/
 
 # Sobre o processo de criação
 Desde o começo desenvolvi a aplicação usando HTML semântico e estilização no modelo mobile first para que o projeto seja responsivo.</br>
-Após analisar a proposta do teste, percebi que o projeto era similar à projetos que já realizei anteriormente, e por isso, a maioria das consultas que realizei foi à soluções que já desenvolvi.Como por exemplo: para realizar o menu responsivo optei por me inspirar no menu que desenvolvi no meu portifólio.</br>
+Após analisar a proposta do teste, percebi que o projeto era similar à projetos que já realizei anteriormente, e por isso, a maioria das consultas que realizei foram à soluções que já desenvolvi.Como por exemplo: para realizar o menu responsivo optei por me inspirar no menu que desenvolvi no meu portifólio.</br>
 As consultas externas que realizei foi à documentação do Next e artigos sobre toLocaleDateString.

@@ -11,9 +11,13 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterContent = styled.div`
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
+
+    ${media.tablet`
+        width: 60%;
+    `}
 `;
 
 export const LogoContent = styled.div`
@@ -30,17 +34,29 @@ export const LinksContent = styled.div`
     align-items: center;
     font-family: 'DM Sans', sans-serif;
     
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     ${media.desktop`
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        div {
+            width: auto;
+        }
     `};
 
     span {
-        font-size: 15px;
-        margin-right: 30px;
+        font-size: 12px;
+        margin-right: 0px;
+
         ${media.desktop`
-        
+            margin-right: 30px;
+            font-size: 15px;
         `}
     }
 
