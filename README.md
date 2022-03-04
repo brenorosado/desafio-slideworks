@@ -11,6 +11,9 @@ O desafio consiste em criar o site de uma biblioteca fícticia conforme o layout
 - HTML
 - CSS
 
+# Deploy 
+https://desafio-slideworks.vercel.app/
+
 # Instruções
 - Clone esse repositório e execute `npm install` para baixar as dependências da aplicação. Em seguida, execute `npm run dev` para iniciar o projeto. A aplicação irá rodar em `http://localhost:3000`.
 
